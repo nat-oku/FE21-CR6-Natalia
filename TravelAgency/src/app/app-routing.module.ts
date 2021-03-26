@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BlogComponent } from './blog/blog.component';
+import { CartComponent } from './cart/cart.component';
 import { HomeComponent } from './home/home.component';
+import { TravelsComponent } from './travels/travels.component';
 
 const routes: Routes = [
   {
@@ -9,8 +11,13 @@ const routes: Routes = [
   },
   {
     path: 'blog', component: BlogComponent
-  } 
-  // add travels incl. travelId later 
+  } ,
+  {
+    path: 'travels', component: TravelsComponent   // add travels incl. travelId later 
+  },
+  {
+    path: 'cart', component: CartComponent
+  }
 ];
 
 @NgModule({
