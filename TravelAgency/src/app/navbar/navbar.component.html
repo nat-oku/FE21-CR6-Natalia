@@ -1,19 +1,19 @@
 <!-- add layout for the navbar visible on all sites -->
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light bg-light shadow-sm">
   <div class="container-fluid">
-    <a class="navbar-brand fs-2" routerLink="/"><i class="fas fa-route"></i> Travelio</a> 
+    <a class="navbar-brand fs-1 text-gold fw-light" routerLink="/"><i class="text-gold fas fa-route"></i><span class="text-gold fw-light"> Travelio</span></a> 
     <ul class="nav justify-content-center text-uppercase">
       <li class="nav-item">
-        <a class="nav-link text-dark" routerLink="/">Home</a>
+        <a class="nav-link fs-4" routerLink="/"><span class="text-gold fw-light">Home</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" routerLink="blog">Blog</a>
+        <a class="nav-link fs-4" routerLink="blog"><span class="text-gold fw-light">Blog</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" routerLink="travels">Travels</a>
+        <a class="nav-link fs-4" routerLink="travels"><span class="text-gold fw-light">Travels</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" routerLink="cart"><i class="fas fa-shopping-cart"></i> {{cartLength}}</a> <!-- instead of "cart" the amount of items will be inserted -->
+        <a class="nav-link fs-4" routerLink="cart"><i class="text-gold fas fa-shopping-cart"></i><span class="text-gold fw-light"> {{cartLength}}</span></a> <!-- instead of "cart" the amount of items will be inserted -->
       </li>
     </ul>
   </div>
