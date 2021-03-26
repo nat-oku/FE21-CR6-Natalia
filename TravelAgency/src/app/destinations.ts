@@ -3,7 +3,7 @@ export const destinations = [
     country: 'Iceland',
     destName: "Iceland nature & more",
     destDescr: "2 weeks with nature, peace and the stunning Aurora borealis",
-    startDate: new Date('12.04.2021'), // make it a Date() in travels.component.ts
+    startDate: new Date('12.04.2021'), // make it a Date() in travels.component.ts --> slice the time, day and GMT
     duration: 14,
     price: 1.000,
     img: 'assets/img/destinations/iceland-joshua-earle-Hn8N4I4eHA0-unsplash.jpg'
@@ -12,7 +12,7 @@ export const destinations = [
     country: 'India',
     destName: "India & Taj Mahal",
     destDescr: "Indian spicies: Our beloved trip is available again",
-    startDate: new Date('23.11.2025'), // make it a Date() in travels.component.ts
+    startDate: new Date('03.11.2025'), // make it a Date() in travels.component.ts
     duration: 21,
     price: 3.300,
     img: 'assets/img/destinations/india-img.jpg'
@@ -30,7 +30,7 @@ export const destinations = [
     country: 'Japan',
     destName: "Japanese cherry dream",
     destDescr: "Explore the Hokkaido, Okinawa and Tokio in two weeks, incl. a cooking lesson.",
-    startDate: new Date('23.11.2025'), // make it a Date() in travels.component.ts
+    startDate: new Date('11.23.2025'), // make it a Date() in travels.component.ts
     duration: 16,
     price: 4.100,
     img: 'assets/img/destinations/japan-andre-benz-MsMISAIe8Qw-unsplash.jpg'
@@ -39,7 +39,7 @@ export const destinations = [
     country: 'Morocco',
     destName: "Arabian dreams vol. 4",
     destDescr: "Follow the stories of the famous Scheherazade on this unique trip.",
-    startDate: new Date('17.01.2022'), // make it a Date() in travels.component.ts
+    startDate: new Date('01.17.2022'), // make it a Date() in travels.component.ts
     duration: 15,
     price: 1.800,
     img: 'assets/img/destinations/marocco-img-8.jpg'
@@ -48,7 +48,7 @@ export const destinations = [
     country: 'Mongolia',
     destName: "Beautiful Mongolia",
     destDescr: "Sleeping in a Yurt, riding a horse, exploring the wide steps of Mongolia.",
-    startDate: new Date('20.11.2025'), // make it a Date() in travels.component.ts
+    startDate: new Date('11.20.2025'), // make it a Date() in travels.component.ts
     duration: 21,
     price: 2.600,
     img: 'assets/img/destinations/mongolia-redcharlie-O7zkyNkQ1lM-unsplash.jpg'
