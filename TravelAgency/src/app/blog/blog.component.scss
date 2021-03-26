@@ -1,0 +1,20 @@
+/* styles only for the blog component */
+
+
+  /* styling blog images */ 
+.blogImg {
+  height: 3em;
+  width: auto;
+}
+
+.favArticleImg {
+  max-height: 12em;    /*  or 100% of container */
+  max-width: 12em;    /* or 100% of container */
+  object-fit: cover; /* none can be an option too as cover may deform it*/
+  object-position: 50% 50%;
+  align-self: center;
+}
+
+.favArticleBorder {
+  border: 1px black dotted;
+}

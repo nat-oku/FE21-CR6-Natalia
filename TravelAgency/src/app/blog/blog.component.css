@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=blog.component.css.map */
+/* styles only for the blog component */
+/* styling blog images */
+.blogImg {
+  height: 3em;
+  width: auto;
+}
+
+.favArticleImg {
+  max-height: 12em;
+  /*  or 100% of container */
+  max-width: 12em;
+  /* or 100% of container */
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* none can be an option too as cover may deform it*/
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.favArticleBorder {
+  border: 1px black dotted;
+}
+/*# sourceMappingURL=blog.component.css.map */
