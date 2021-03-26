@@ -7,9 +7,7 @@ export class ShoppingCartService {
 
   destinationsInCart = []
   cartTotal: number = 0; 
-  discount10;
-  discount20;
-
+  
   constructor() { }
 
   // function to grab the products which will be then added to the cart 
@@ -35,13 +33,3 @@ export class ShoppingCartService {
     return cartTotal; // here it returns 0
   }
 }
-
-  // getDiscount10() {
-  //   let discount10 = this.cartTotal * 0.9;
-  //   return this.discount10;
-  // }
-
-  // getDiscount20() {
-  //   let discount20 = this.cartTotal * 80;
-  //   return this.discount20;
-  // }

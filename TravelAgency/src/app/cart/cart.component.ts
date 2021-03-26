@@ -10,7 +10,7 @@ export class CartComponent implements OnInit {
 
   destinationsInCart;
   cartTotal: number;
-  discount: number;
+  discount: number = 0;
 
   constructor(public shoppingCartService: ShoppingCartService) { }
 
