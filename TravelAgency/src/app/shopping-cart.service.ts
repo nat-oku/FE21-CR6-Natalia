@@ -17,6 +17,7 @@ export class ShoppingCartService {
   // function to add products to cart
   addToCart(destination) {
     this.destinationsInCart.push(destination);
+    console.log(this.destinationsInCart)
   }
 
 }
