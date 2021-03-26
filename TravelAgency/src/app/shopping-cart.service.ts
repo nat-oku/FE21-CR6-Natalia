@@ -20,4 +20,9 @@ export class ShoppingCartService {
     console.log(this.destinationsInCart)
   }
 
+  // add function to determine items length, to show it in the navbar when product is clicked
+  destinationsLength() {
+    return this.destinationsInCart.length;
+  }
+
 }
