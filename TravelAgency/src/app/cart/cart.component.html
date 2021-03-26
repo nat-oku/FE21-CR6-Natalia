@@ -7,8 +7,8 @@
       <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let destination of destinationsInCart">
 
         <!-- here comes the dynamic content -->
-        <span class="text-dark">{{ destination.destName }}</span>
-        <span class="text-dark">{{ destination.price }}€</span>
+        <span class="text-dark fw-light">{{ destination.destName }}</span>
+        <span class="text-dark fw-light">{{ destination.price }}€</span>
       </li>
     </ul>
     <br>
@@ -16,15 +16,15 @@
       <li class="list-group-item d-flex justify-content-between align-items-center text-dark">
         
         <!-- here comes the output from the calculations -->
-        <span class="text-dark">Total (no discount applied)</span>
-        <span class="text-dark">{{ cartTotal }}€</span>
+        <span class="text-dark fw-light text-uppercase">Total (no discount applied)</span>
+        <span class="text-dark fw-light text-uppercase">{{ cartTotal }}€</span>
       </li>
       <li class="list-group-item d-flex justify-content-end border-bottom-0">
         <button type="button" class="btn border-gold shadow-sm fw-lighter rounded-pill" (click)="getDiscount(discount)">Calculate discount</button>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
-        <span class="text-dark">Total (incl. discount) </span>
-        <span class="text-dark">{{ discount }}€</span>
+        <span class="text-dark fw-light text-uppercase">Total (incl. discount) </span>
+        <span class="text-dark fw-light text-uppercase">{{ discount }}€</span>
       </li>
     </ul>
   </div>
