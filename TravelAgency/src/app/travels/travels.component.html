@@ -1,16 +1,16 @@
-<div class="container bg-warning mt-3 mb-3 pt-3 pb-3">
-  <h1 class="text-center pb-3">Our destinations</h1>
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-group">
+<div class="container mt-3 mb-3 pt-3 pb-3">
+  <h1 class="text-center pb-3 text-uppercase fw-light">Our destinations</h1>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-group removeBorder">
     <div class="col" *ngFor="let destination of destinations" (click)="addToCart(destination)">
-      <div class="card">
-        <img src="{{ destination.img }}" class="card-img-top" alt="...">
+      <div class="card removeBorder shadow-sm rounded-0">
+        <img src="{{ destination.img }}" class="card-img-top rounded-0" alt="...">
         <div class="card-body">
           <h5 class="card-title">{{ destination.destName }}</h5>
-          <p class="card-text">{{ destination.destDescr }}</p>
-          <p class="card-text">Start date: {{ destination.startDate }}</p>
-          <p class="card-text">Duration: {{ destination.duration }} days</p>
-          <p class="card-text">Price: {{ destination.price }}€</p>
-          <button type="button" class="btn btn-outline-dark" >Book now</button>
+          <p class="card-text pb-2">{{ destination.destDescr }}</p>
+          <p class="card-text fontSmall-13 border-bottom"><b>Start date:</b> {{ destination.startDate }}</p>
+          <p class="card-text fontSmall-13 border-bottom"><b>Duration:</b> {{ destination.duration }} days</p>
+          <p class="card-text fontSmall-13 border-bottom"><b>Price:</b> {{ destination.price }}€</p>
+          <button type="button" class="btn btn-outline-dark shadow-sm" >Book now</button>
         </div> <!-- add this function later " -->
       </div>
     </div>
