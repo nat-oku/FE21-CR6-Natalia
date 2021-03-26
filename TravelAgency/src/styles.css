@@ -1,2 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* adding global styles for all elements */
+/* text transformation */
+.textShadow {
+  text-shadow: 2px 2px 5px #333;
+}
 /*# sourceMappingURL=styles.css.map */
