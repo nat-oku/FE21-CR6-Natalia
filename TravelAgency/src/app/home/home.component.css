@@ -1,0 +1,23 @@
+.myImage {
+  max-height: 80vh;
+  /*  or 100% of container */
+  width: 100%;
+  /* or 100% of container */
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* none can be an option too as cover may deform it*/
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  /* if both 50% will center it*/
+}
+
+.cardHeight {
+  max-height: 80vh;
+  /*  or 100% of container */
+}
+
+.removeBorder {
+  border: none;
+  border-radius: none;
+}
+/*# sourceMappingURL=home.component.css.map */
