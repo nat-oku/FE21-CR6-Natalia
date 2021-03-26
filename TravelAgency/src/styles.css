@@ -35,6 +35,13 @@
 
 .border-gold {
   border: 1.5px solid #d4af37;
+  background-color: #fcfcfc;
+  color: #333;
+}
+
+.border-gold:hover {
+  background-color: #d4af37;
+  color: #fcfcfc;
 }
 
 .border-white {
