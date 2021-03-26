@@ -1,7 +1,12 @@
 /* adding global styles for all elements */
+/* varibales */
 /* text transformation */
 .textShadow {
   text-shadow: 2px 2px 5px #333;
+}
+
+.textShadowIcons {
+  text-shadow: 1px 1px 3px rgba(51, 51, 51, 0.2);
 }
 
 .fontSmall-13 {
@@ -16,5 +21,49 @@
 .removeBorder {
   border: none;
   border-radius: none;
+}
+
+.bgOpacity {
+  background-color: rgba(51, 51, 51, 0.4);
+}
+
+/* styles for changing colors */
+/* changing color of border */
+.border-grey {
+  border: 1.5px solid #333;
+}
+
+.border-gold {
+  border: 1.5px solid #d4af37;
+}
+
+.border-white {
+  border: 1.5px solid #fcfcfc;
+}
+
+/* changing color of text*/
+.text-grey {
+  color: #333;
+}
+
+.text-gold {
+  color: #d4af37;
+}
+
+.text-white {
+  color: #fcfcfc;
+}
+
+/* changing color of bachground */
+.bg-grey {
+  background-color: #333;
+}
+
+.bg-gold {
+  background-color: #d4af37;
+}
+
+.bg-white {
+  background-color: #fcfcfc;
 }
 /*# sourceMappingURL=styles.css.map */
