@@ -22,11 +22,11 @@ export class CartComponent implements OnInit {
   }
   
   getDiscount(discount) {
-    if(this.cartTotal > 2000) {
+    if(this.cartTotal > 200) {
       this.discount = this.cartTotal * 0.9;
       console.log(this.discount)
       return this.discount
-    } else if(this.cartTotal > 5000) {
+    } else if(this.cartTotal > 500) {
       this.discount = this.cartTotal * 0.8;
       console.log(this.discount)
       return this.discount;
