@@ -1,16 +1,20 @@
-<!-- HTML layout for navbar displayed on all pages-->
-
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="blog">Blog</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="travels">Travels</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="cart">Cart</a>
-  </li>
-</ul>
+<!-- add layout for the navbar visible on all sites -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-2" routerLink="/"><i class="fas fa-route"></i> Travelio</a> 
+    <ul class="nav justify-content-center text-uppercase">
+      <li class="nav-item">
+        <a class="nav-link text-dark" routerLink="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" routerLink="blog">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" routerLink="travels">Travels</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" routerLink="cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+      </li>
+    </ul>
+  </div>
+</nav>
