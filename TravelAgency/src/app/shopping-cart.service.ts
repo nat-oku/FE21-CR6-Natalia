@@ -6,6 +6,9 @@ import { Injectable } from '@angular/core';
 export class ShoppingCartService {
 
   destinationsInCart = []
+  cartTotal: number = 0; 
+  discount10;
+  discount20;
 
   constructor() { }
 
@@ -25,4 +28,20 @@ export class ShoppingCartService {
     return this.destinationsInCart.length;
   }
 
+  // add function to display totalSum() of all products selected
+  getTotal() : number {
+    let cartTotal = this.destinationsInCart.reduce((a, b) => a + b.price, 0);
+    console.log(this.cartTotal)
+    return cartTotal; // here it returns 0
+  }
 }
+
+  // getDiscount10() {
+  //   let discount10 = this.cartTotal * 0.9;
+  //   return this.discount10;
+  // }
+
+  // getDiscount20() {
+  //   let discount20 = this.cartTotal * 80;
+  //   return this.discount20;
+  // }
