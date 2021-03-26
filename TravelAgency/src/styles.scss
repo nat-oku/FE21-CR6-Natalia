@@ -18,7 +18,7 @@ $brand-color-3: #fcfcfc;
 }
 
 .fontSmall-13 {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .iconSize-60 {
@@ -82,4 +82,15 @@ $brand-color-3: #fcfcfc;
 
 .bg-white {
   background-color: $brand-color-3;
+}
+
+
+/* pointer style */
+.pointerMouse {
+  cursor: pointer;
+}
+
+/* centering the content */
+.marginAuto {
+  margin: 0 auto;
 }

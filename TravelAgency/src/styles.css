@@ -10,7 +10,7 @@
 }
 
 .fontSmall-13 {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .iconSize-60 {
@@ -72,5 +72,15 @@
 
 .bg-white {
   background-color: #fcfcfc;
+}
+
+/* pointer style */
+.pointerMouse {
+  cursor: pointer;
+}
+
+/* centering the content */
+.marginAuto {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=styles.css.map */
