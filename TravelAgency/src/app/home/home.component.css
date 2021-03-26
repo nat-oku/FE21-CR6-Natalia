@@ -15,4 +15,14 @@
   max-height: 80vh;
   /*  or 100% of container */
 }
+
+.employeeImg {
+  max-height: 15em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* none can be an option too as cover may deform it*/
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  /* if both 50% will center it*/
+}
 /*# sourceMappingURL=home.component.css.map */
