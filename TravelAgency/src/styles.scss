@@ -45,6 +45,13 @@ $brand-color-3: #fcfcfc;
 
 .border-gold {
   border: 1.5px solid $brand-color-2;
+  background-color:  $brand-color-3;
+  color: $brand-color-1;
+  
+  &:hover {
+    background-color: $brand-color-2;
+    color: $brand-color-3;
+  }
 }
 
 .border-white {
