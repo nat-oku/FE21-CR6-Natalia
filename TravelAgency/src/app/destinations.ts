@@ -5,7 +5,7 @@ export const destinations = [
     destDescr: "2 weeks with nature, peace and the stunning Aurora borealis",
     startDate: new Date('12.04.2021'), // make it a Date() in travels.component.ts --> slice the time, day and GMT
     duration: 14,
-    price: 1.000,
+    price: 1000,
     img: 'assets/img/destinations/iceland-joshua-earle-Hn8N4I4eHA0-unsplash.jpg'
   },
   {
@@ -14,7 +14,7 @@ export const destinations = [
     destDescr: "Indian spicies: Our beloved trip is available again",
     startDate: new Date('03.11.2025'), // make it a Date() in travels.component.ts
     duration: 21,
-    price: 3.300,
+    price: 3300,
     img: 'assets/img/destinations/india-img.jpg'
   },
   {
@@ -23,7 +23,7 @@ export const destinations = [
     destDescr: "Discover the birth-place of Titanic and dive into the secrets of Guinness",
     startDate: new Date('01.03.2023'), // make it a Date() in travels.component.ts
     duration: 10,
-    price: 1.100,
+    price: 1100,
     img: 'assets/img/destinations/ireland-img-4.jpg'
   },
   {
@@ -32,7 +32,7 @@ export const destinations = [
     destDescr: "Explore the Hokkaido, Okinawa and Tokio in two weeks, incl. a cooking lesson.",
     startDate: new Date('11.23.2025'), // make it a Date() in travels.component.ts
     duration: 16,
-    price: 4.100,
+    price: 4100,
     img: 'assets/img/destinations/japan-andre-benz-MsMISAIe8Qw-unsplash.jpg'
   },
   {
@@ -41,7 +41,7 @@ export const destinations = [
     destDescr: "Follow the stories of the famous Scheherazade on this unique trip.",
     startDate: new Date('01.17.2022'), // make it a Date() in travels.component.ts
     duration: 15,
-    price: 1.800,
+    price: 1800,
     img: 'assets/img/destinations/marocco-img-8.jpg'
   },
   {
@@ -50,7 +50,7 @@ export const destinations = [
     destDescr: "Sleeping in a Yurt, riding a horse, exploring the wide steps of Mongolia.",
     startDate: new Date('11.20.2025'), // make it a Date() in travels.component.ts
     duration: 21,
-    price: 2.600,
+    price: 2600,
     img: 'assets/img/destinations/mongolia-redcharlie-O7zkyNkQ1lM-unsplash.jpg'
   },
   {
@@ -59,7 +59,7 @@ export const destinations = [
     destDescr: "A round trip in the West of USA, from San Fransisco trough, Death Valley, Las Vegas up to Grand Canyon and more.",
     startDate: new Date('06.06.2024'), // make it a Date() in travels.component.ts
     duration: 18,
-    price: 3.100,
+    price: 3100,
     img: 'assets/img/destinations/usa-omer-nezih-gerek-ZZnH4GOzDgc-unsplash.jpg'
   }
 ];
