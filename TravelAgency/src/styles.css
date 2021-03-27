@@ -44,8 +44,16 @@
   color: #fcfcfc;
 }
 
-.border-white {
+.border-newWhite {
   border: 1.5px solid #fcfcfc;
+  background-color: #d4af37;
+  color: #fcfcfc;
+}
+
+.border-newWhite:hover {
+  border: 1.5px solid #d4af37;
+  background-color: #fcfcfc;
+  color: #d4af37;
 }
 
 /* changing color of text*/
@@ -68,6 +76,10 @@
 
 .bg-gold {
   background-color: #d4af37;
+}
+
+.bg-gold-opacity-2 {
+  background-color: rgba(212, 175, 55, 0.2);
 }
 
 .bg-white {

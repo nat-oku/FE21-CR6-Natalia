@@ -56,8 +56,16 @@ $brand-color-3: #fcfcfc;
   }
 }
 
-.border-white {
+.border-newWhite {
   border: 1.5px solid $brand-color-3;
+  background-color:  $brand-color-2;
+  color: $brand-color-3;
+  
+  &:hover {
+    border: 1.5px solid $brand-color-2;
+    background-color: $brand-color-3;
+    color: $brand-color-2;
+  }
 }
 
   /* changing color of text*/

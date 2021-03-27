@@ -3,7 +3,7 @@
 <div class="container mt-3 mb-3 pt-3 pb-3 w-50 heightCart shadow-sm">
   <h1 class="text-center pb-3 text-uppercase fw-light">Summary of your order</h1>
   <div class="">
-    <ul class="list-group text-dark">
+    <ul class="list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let destination of destinationsInCart">
 
         <!-- here comes the dynamic content -->
@@ -27,6 +27,6 @@
         <span class="text-dark fw-light text-end" id="discountMsg">{{ discount }}€</span>
       </li>
     </ul>
-    <button type="button" class="btn bg-gold text-light fw-lighter shadow-sm m-3" (click)="onSubmit()">Purchase now</button>
+    <button type="button" class="btn border-newWhite fw-lighter shadow-sm m-3" (click)="onSubmit()">Purchase now</button>
   </div>
 </div>
