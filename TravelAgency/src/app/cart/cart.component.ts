@@ -40,7 +40,11 @@ export class CartComponent implements OnInit {
 
   // adding a method to collect the order and empty the cart on click
   onSubmit() {
-    window.alert('Your order has been submitted');
+    if(this.cartTotal == 0) { // adding logic to alert customer when cart is empty
+      window.alert("You don't have items in your cart.")
+    } else {
+      window.alert('Your order has been submitted');
+    }
     this.destinationsInCart = this.shoppingCartService.clearCart();
     this.cartTotal = 0; // deleting the totalSum from cart
     this.discount = 0; // deleting the discount from cart
