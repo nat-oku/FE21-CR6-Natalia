@@ -18,15 +18,6 @@ export const destinations = [
     img: 'assets/img/destinations/india-img.jpg'
   },
   {
-    country: 'Ireland & Northern Ireland',
-    destName: "A round trip you won't forget",
-    destDescr: "Discover the birth-place of Titanic and dive into the secrets of Guinness",
-    startDate: new Date('01.03.2023'), // make it a Date() in travels.component.ts
-    duration: 10,
-    price: 110,
-    img: 'assets/img/destinations/ireland-img-4.jpg'
-  },
-  {
     country: 'Japan',
     destName: "Japanese cherry dream",
     destDescr: "Explore the Hokkaido, Okinawa and Tokio in two weeks, incl. a cooking lesson.",
