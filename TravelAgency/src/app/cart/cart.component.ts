@@ -22,6 +22,7 @@ export class CartComponent implements OnInit {
     console.log(this.cartTotal); // here it returns the correct sum
   }
   
+  // adding a function to calculate the discount - the previous discount is not saved; the customer must click every time to calculate
   getDiscount(discount) {
     if(this.cartTotal >= 200) {
       this.discount = this.cartTotal * 0.9;
@@ -32,7 +33,7 @@ export class CartComponent implements OnInit {
       console.log(this.discount)
       return this.discount;
     } else if(this.cartTotal < 200) {
-      let negDiscount = document.getElementById('discountMsg').innerText = 'Unfortunately you are not eligible for a discount.';
+      let negDiscount = document.getElementById('discountMsg').textContent = 'Unfortunately you are not eligible for a discount.';
       return;
     }
   }
