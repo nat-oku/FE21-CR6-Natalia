@@ -23,7 +23,7 @@ export const destinations = [
     destDescr: "Explore the Hokkaido, Okinawa and Tokio in two weeks, incl. a cooking lesson.",
     startDate: new Date('11.23.2025'), // make it a Date() in travels.component.ts
     duration: 16,
-    price: 410,
+    price: 110,
     img: 'assets/img/destinations/japan-andre-benz-MsMISAIe8Qw-unsplash.jpg'
   },
   {
@@ -50,7 +50,7 @@ export const destinations = [
     destDescr: "A round trip in the West of USA, from San Fransisco trough, Death Valley, Las Vegas up to Grand Canyon and more.",
     startDate: new Date('06.06.2024'), // make it a Date() in travels.component.ts
     duration: 18,
-    price: 131,
+    price: 431,
     img: 'assets/img/destinations/usa-omer-nezih-gerek-ZZnH4GOzDgc-unsplash.jpg'
   }
 ];
