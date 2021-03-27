@@ -11,6 +11,7 @@ export class CartComponent implements OnInit {
   destinationsInCart;
   cartTotal: number;
   discount: number = 0; // setting discount to 0 - so a number is displayed on screen
+  negDiscount;
 
   constructor(public shoppingCartService: ShoppingCartService) { }
 
@@ -22,14 +23,17 @@ export class CartComponent implements OnInit {
   }
   
   getDiscount(discount) {
-    if(this.cartTotal > 200) {
+    if(this.cartTotal >= 200) {
       this.discount = this.cartTotal * 0.9;
       console.log(this.discount)
       return this.discount
-    } else if(this.cartTotal > 500) {
+    } else if(this.cartTotal >= 500) {
       this.discount = this.cartTotal * 0.8;
       console.log(this.discount)
       return this.discount;
+    } else if(this.cartTotal < 200) {
+      let negDiscount = document.getElementById('discountMsg').innerText = 'Unfortunately you are not eligible for a discount.';
+      return;
     }
   }
 }
