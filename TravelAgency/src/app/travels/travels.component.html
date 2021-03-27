@@ -7,7 +7,7 @@
         <div class="card-body">
           <h5 class="card-title fs-5 fw-light text-uppercase text-gold">{{ destination.destName }}</h5>
           <p class="card-text pb-2 fst-normal">{{ destination.destDescr }}</p>
-          <p class="card-text fontSmall-13 border-bottom fw-light"><b>Start date:</b> {{ destination.startDate }}</p>
+          <p class="card-text fontSmall-13 border-bottom fw-light"><b>Start date:</b> {{ destination.startDate | date }}</p>
           <p class="card-text fontSmall-13 border-bottom fw-light"><b>Duration:</b> {{ destination.duration }} days</p>
           <p class="card-text fontSmall-13 border-bottom fw-light"><b>Price:</b> {{ destination.price }}€</p>
           <button type="button" class="btn border-gold shadow-sm fw-lighter shadow-sm" >Book now</button>
