@@ -38,5 +38,6 @@ export class ShoppingCartService {
   clearCart() {
     this.destinationsInCart = [];
     return this.destinationsInCart;
-  } 
+  }
+
 }
