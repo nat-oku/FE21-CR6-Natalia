@@ -12,7 +12,6 @@ export class CartComponent implements OnInit {
   cartTotal: number;
   discount: number = 0; // setting discount to 0 - so a number is displayed on screen
   negDiscount;
-  customerData;
 
   constructor(public shoppingCartService: ShoppingCartService) { }
 
