@@ -12,6 +12,7 @@ export class CartComponent implements OnInit {
   cartTotal: number;
   discount: number = 0; // setting discount to 0 - so a number is displayed on screen
   negDiscount;
+  customerData;
 
   constructor(public shoppingCartService: ShoppingCartService) { }
 
@@ -36,5 +37,13 @@ export class CartComponent implements OnInit {
       let negDiscount = document.getElementById('discountMsg').textContent = 'Unfortunately you are not eligible for a discount.';
       return;
     }
+  }
+
+  // adding a method to collect the order and empty the cart on click
+  onSubmit() {
+    window.alert('Your order has been submitted');
+    this.destinationsInCart = this.shoppingCartService.clearCart();
+    this.cartTotal = 0; // deleting the totalSum from cart
+    this.discount = 0; // deleting the discount from cart
   }
 }
