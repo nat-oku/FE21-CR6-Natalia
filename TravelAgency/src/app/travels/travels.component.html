@@ -2,7 +2,7 @@
   <h1 class="text-center pb-3 text-uppercase fw-light">Our destinations</h1>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-group removeBorder">
     <div class="col" *ngFor="let destination of destinations" (click)="addToCart(destination)">
-      <div class="card removeBorder shadow-sm rounded-0">
+      <div class="card h-100 removeBorder shadow-sm rounded-0">
         <img src="{{ destination.img }}" class="card-img-top rounded-0" alt="...">
         <div class="card-body">
           <h5 class="card-title fs-5 fw-light text-uppercase text-gold">{{ destination.destName }}</h5>
